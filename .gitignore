@@ -17,8 +17,12 @@ verifyfix*.php
 asktest*.php
 nettest*.php
 
-# User uploads (keep folder, ignore contents)
+# User uploads (keep folder + security files, ignore uploaded contents)
 /uploads/*
+!/uploads/*/
+/uploads/**/*
+!/uploads/*/.htaccess
+!/uploads/*/index.html
 
 # Logs
 *.log
