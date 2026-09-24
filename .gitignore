@@ -1,0 +1,24 @@
+# Secrets - never commit real keys
+.env
+*.env
+*.env.local
+
+# XAMPP / OS
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# Temp / diagnostic scripts
+*_tmp.php
+opcheck*.php
+diag*.php
+dbinspect*.php
+verifyfix*.php
+asktest*.php
+nettest*.php
+
+# User uploads (keep folder, ignore contents)
+/uploads/*
+
+# Logs
+*.log
